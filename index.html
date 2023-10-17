@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>Login Form - Test</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+.btn-login{
+  padding: 13px 40px;
+  background: skyblue;
+  color: white;
+}
+.btn-register{
+  padding: 13px 40px;
+  background:skyblue;
+  color: white;
+}
+input{
+  margin: 10px 0;
+  border: none;
+  background: gray;
+  padding: 13px 22px;
+}
+h1{
+  font-family: "Gill Sans", sans-serif;
+}
+      .loginbtn::active{
+        animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
+      }
+
+      @keyframes slideIn {
+        0% {
+          visibility: visible;
+        }
+        100% {
+          visibility: hidden;
+        }
+      }
+    </style>
+      
+    </head>
+  
+  <body>
+    <div class="container">
+      <div class="contan">
+        <div class="login">
+        <h1>Login Form</h1>
+          <div class="solcalnetwork">
+            <hi class="google">G+</hi>
+           </div> 
+        <input class="name" type="name" placeholder="Name">
+        <input class="password" type="password" placeholder="PassWord">
+        <input class="btn-login" type="button" value="Login">
+         <div class="notaccount">
+          <label>Not Account?</label>
+          <a class="loginbtn" href="#">Create</a>
+          <div> 
+      </div>
+           <div class="register">
+             <h1>Register</h1>
+             <div class="solcalnetwork">
+               <hi class="google">G+</hi>
+             </div>
+             <input class="name" type="name" placeholder="Name">
+             <input class="email" type="email" placeholder="Email">
+             <input class="password" type="password" placeholder="Password">
+             <input class="btn-register" type="button" value="Register">
+            </div> 
+     </div>
+  </body>
+</html>
