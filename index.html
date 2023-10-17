@@ -28,12 +28,15 @@ h1{
       .loginbtn::active{
         animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
       }
+      register{
+        visibility: hidden
+      }
 
       @keyframes slideIn {
-        0% {
+        register {
           visibility: visible;
         }
-        100% {
+        login {
           visibility: hidden;
         }
       }
